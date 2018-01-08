@@ -1,7 +1,7 @@
 require 'pry'
 
 def starts_with_a_vowel?(word)
-  x = /^[AEIOUaeiou]/.match(word)
+  x = /^[AEIOUaeiou].*/.match(word)
   word == x
 end
 
